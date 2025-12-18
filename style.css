@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: AspirinAdvanceBold;
+  src: url('font/IBMPlexSans-Medium.ttf');
+}
+
+body {
+  font-family: fontIBM;
+  background-color: rgb(224, 224, 224);
+  padding: 2em;
+  border: 0px solid rgb(120, 178, 240);
+  min-height: 100vh;
+}
+
+/* TITULO PRINCIPAL */
+.title {
+  font-size: 2.4em;
+  display: block;
+  margin-bottom: 0.2em;
+}
+
+/* SUBTITULO */
+.subtitle {
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* TEXTAREA */
+textarea {
+  font-family: AspirinAdvanceBold;
+  width: 22em;
+  height: 10em;
+  padding: 1em;
+  border: 3px solid rgb(229, 158, 202);
+  background-color: rgb(255, 229, 229);
+  resize: none;
+  margin-bottom: 1em;
+}
+
+#canvasWrapper {
+  margin-top: 1.5em;
+}
